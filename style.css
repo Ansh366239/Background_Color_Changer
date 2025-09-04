@@ -1,0 +1,44 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.colorbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#grey {
+    background-color: grey;
+    border: 2px solid black;
+}
+#red {
+    background-color: red;
+    border: 2px solid black;
+
+}
+#blue {
+    background-color: blue;
+    border: 2px solid black;
+}
+#yellow {
+    background-color: yellow;
+    border: 2px solid black;
+}
